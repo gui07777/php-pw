@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    background: green;
+    padding: 20px;
+    height: 50%;
+    gap:20px;
+}
