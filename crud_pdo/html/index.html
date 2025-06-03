@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de cadastro</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-formulario">
+            <h1>Cadastre-se</h1>
+            <form method="POST" action="../php/CadastroUsuario.php">
+                <label for="email">Email:</label>
+                <input type="text" name="emailFormulario"><br><br>
+                <label for="senha">Nome:</label>
+                <input type="text" name="nomeFormulario"><br>
+                <label for="senha">Senha:</label>
+                <input type="text" name="senhaFormulario"><br>
+                <input type="submit" value="Cadastrar" class="submit-button" name="btnCadastrar">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

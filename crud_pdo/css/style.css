@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-formulario {
+    background-color: rgb(202, 194, 194);
+}
+
+.submit-button {
+
+    padding: 10px;
+    background: blue;
+    width: 80px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    
+}
