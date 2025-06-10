@@ -11,8 +11,9 @@ body {
     height: 100vh;
 }
 
-.container-formulario {
+.container-formulario form {
     background-color: rgb(202, 194, 194);
+    padding: 50px;
 }
 
 .submit-button {

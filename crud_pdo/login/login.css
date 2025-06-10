@@ -11,14 +11,14 @@ body {
     height: 100vh;
 }
 
-.container-formulario {
+.container-formulario > form {
     background-color: rgb(202, 194, 194);
     padding:50px;
     display:flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 20px
+    /* flex-direction: column; */
+    border-radius: 10px;
 }
 
 .submit-button {
