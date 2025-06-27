@@ -1,0 +1,65 @@
+body {
+      margin: 0;
+      padding: 0;
+      background-color: #d2ab79;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: #111116;
+      color: white;
+      padding: 40px 30px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      width: 320px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin: 12px 0;
+      border: none;
+      border-radius: 24px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    a {
+  text-decoration: none;
+}
+
+.btn-login {
+  background-color: #b0742b;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-login:hover {
+  background-color: #965b1e;
+}
+
+.btn-cadastrar {
+  background-color: transparent;
+  color: gray;
+  border: none;
+  font-size: 14px;
+  margin-top: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-cadastrar:hover {
+  color: #797775;
+  text-decoration: underline;
+}

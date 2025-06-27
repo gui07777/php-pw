@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecte-se!</title>
+    <link rel="stylesheet" href="../../../css/usuario/login.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form-container" method="POST" action="../../Controller/UsuarioController.php">
+            <h2>Que bom ter você de volta!</h2>
+
+            <div class="form-group">
+                <label for="">Email:</label>
+                <input type="text" placeholder="Digite aqui..." name="email"><br>
+            </div>
+            <div class="form-group">
+                <label for="">Senha:</label>
+                <input type="password" placeholder="Digite aqui..." name="password"><br>
+            </div>
+            <div>
+                <input type="submit" value="Entrar" name="requisicao">
+                <a href="cadastro.html"
+                    >Cadastre-se
+                    aqui!</a>
+
+                <a href="alterarSenha.html"
+                    >Esqueci
+                    minha
+                    senha!</a>
+                <a href="apagarConta.html"
+                    >Excluir
+                    conta!</a>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

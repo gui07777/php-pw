@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo(a)!</title>
+    <link rel="stylesheet" href="../../../css/usuario/cadastro.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form-container" method="POST" action="../../Controller/UsuarioController.php">
+            <h2>Seja bem-vindo(a)!</h2>
+            <div class="form-group">
+                <label for="">Nome:</label>
+                <input type="text" placeholder="Digite seu nome..." name="name"><br>
+            </div>
+            <div class="form-group">
+                <label for="">Email:</label>
+                <input type="text" placeholder="Digite seu email..." name="email"><br>
+            </div>
+            <div class="form-group">
+                <label for="">Senha:</label>
+                <input type="password" placeholder="Crie uma senha..." name="password"><br>
+            </div>
+            <div class="form-group">
+                <label for="">Repita a senha:</label>
+                <input type="password" placeholder="Digite novamente..." name="repeatPassword"><br>
+            </div>
+            <div>
+                <input type="submit" value="Cadastrar" name="requisicao">
+                <a href="login.html" class="link-senha"
+                   >Já tenho uma conta. Entrar!</a>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

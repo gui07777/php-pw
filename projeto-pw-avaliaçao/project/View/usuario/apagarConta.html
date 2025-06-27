@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecte-se!</title>
+    <link rel="stylesheet" href="../../../css/usuario/apagarConta.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form-container" method="POST" action="../../Controller/UsuarioController.php">
+            <h2>Deseja excluir sua conta?</h2> <br>
+
+            <div class="form-group">
+                <label for="">Email:</label>
+                <input type="text" placeholder="Digite aqui..." name="email"><br>
+            </div>
+            <div class="form-group">
+                <label for="">Senha:</label>
+                <input type="password" placeholder="Digite aqui..." name="password"><br>
+            </div>
+            <div>
+
+                <input type="submit" value="Excluir" class="excluir" name="requisicao">
+                <input type="button" value="Cancelar" onclick="window.location.href='login.html'"
+                    class="cancelar">
+
+            </div>
+
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>

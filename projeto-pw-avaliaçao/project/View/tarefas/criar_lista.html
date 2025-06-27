@@ -1,0 +1,32 @@
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../../css/tarefas/criar_lista.css">
+<title>Nova Tarefa</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>➕ Nova Tarefa</h2>
+
+    <form action="../../Controller/TarefaController.php" method="POST">
+      <input type="hidden" name="requisicao" value="criar" />
+
+      <label for="titulo">Título:</label>
+      <input type="text" id="titulo" name="titulo" required>
+
+      <label for="descricao">Descrição:</label>
+      <textarea id="descricao" name="descricao" rows="5" required></textarea>
+
+      <button type="submit">Salvar</button>
+    </form>
+
+    <a href="lista.php">← Voltar para a lista</a>
+  </div>
+
+</body>
+
+</html>
+</html>
